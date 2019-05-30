@@ -1,4 +1,4 @@
-package se.chalmers.cse.wm1819.dit341template;
+package se.chalmers.cse.dit341.group00;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

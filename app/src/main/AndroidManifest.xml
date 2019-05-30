@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="se.chalmers.cse.wm1819.dit341template">
+    package="se.chalmers.cse.dit341.group00">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,18 +14,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="se.chalmers.cse.dit341.group00.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="se.chalmers.cse.dit341.group00.SecondActivity"
+            android:parentActivityName="se.chalmers.cse.dit341.group00.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="se.chalmers.cse.dit341.group00.MainActivity" />
         </activity>
     </application>
 
