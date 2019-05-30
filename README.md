@@ -6,6 +6,7 @@ This [Android](https://www.android.com/) templates contains a basic Android app 
 
 * [Server](https://git.ita.chalmers.se/courses/dit341/group-00-web/tree/master/server) backend running on `http://localhost:3000`
 * [Android Studio](https://developer.android.com/studio) (v3.4)
+  * Considerable bandwidth required for downloading Android Studio (~1GB), extra components (~700MB), project dependencies (~200MB) and a emulator system image (~1.1GB).
 
 ## Project setup
 
@@ -26,6 +27,8 @@ This [Android](https://www.android.com/) templates contains a basic Android app 
 4. Run the app by selecting *Run* -> *Run 'Run app'*
 5. In the new window *Select Deployment Target*, create a new virtual device (emulator). Choose the *Nexus 5X* phone with API Level 28 (Android 9.0). Downloading this new system image might take a while.
 6. Clicking *Ok* will automatically launch the device, deploy the app (as packaged apk), and start the main activity of the app.
+
+Checkout [Run apps on a hardware device](https://developer.android.com/studio/run/device) to run your app on your Android device.
 
 ## Project structure
 
