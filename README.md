@@ -50,8 +50,8 @@ In Android, buttons are connected to methods using so-called *Listeners*. If you
 
 ## Testing
 
-1. Right-click the `test` and select *Run 'Run unit tests''*
-2. Right-click the `androidTest` and select *Run 'Run instrumented tests''*
+1. Right-click the `test` directory and select *Run 'Run unit tests''*
+2. Right-click the `androidTest` directory and select *Run 'Run instrumented tests''*
 
 You can also select different run profiles via the menu *Run* -> *Run...*
 
