@@ -15,9 +15,7 @@ This [Android](https://www.android.com/) templates contains a basic Android app 
 1. Clone the template repository
 
     ```bash
-    # Without Gitlab Registration
-    git clone https://git.ita.chalmers.se/courses/dit341/group-00-android
-    # With Gitlab Registration
+    # Clone repository
     git clone git@git.ita.chalmers.se:courses/dit341/group-00-android.git
 
     # Change into the directory
