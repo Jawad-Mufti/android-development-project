@@ -1,5 +1,7 @@
 # Android Template
 
+Latest version: https://git.ita.chalmers.se/courses/dit341/group-00-android (public Github [mirror](https://github.com/dit341/group-00-android))
+
 This [Android](https://www.android.com/) templates contains a basic Android app with two activities and demonstrates a HTTP request to the Camel backend server.
 
 ## Requirements
