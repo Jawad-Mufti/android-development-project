@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import se.chalmers.cse.wm1819.dit341template.R;
+
 public class SecondActivity extends AppCompatActivity {
 
     @Override
@@ -13,7 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.HTTP_PARAM);
+        String message = intent.getStringExtra(MainRecipeActivity.HTTP_PARAM);
 
         TextView text = findViewById(R.id.displayTextView);
         text.setText("Text from my main activity: " + message);
